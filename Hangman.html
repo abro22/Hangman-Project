@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="Hangman.css">
+</head>
+
+<body>
+
+    <div class="Hangman">
+
+        <h1>Hangman</h1>
+        <h4>Use the alphabet below to guess the word, or click on the hint button to get a clue!</h4>
+
+        <div>
+            <button onclick="clickedLetter ('a')">A</button>
+            <button onclick="clickedLetter ('b')">B</button>
+            <button onclick="clickedLetter ('c')">C</button>
+            <button onclick="clickedLetter ('d')">D</button>
+            <button onclick="clickedLetter ('e')">E</button>
+            <button onclick="clickedLetter ('f')">F</button>
+            <button onclick="clickedLetter ('g')">G</button>
+            <button onclick="clickedLetter ('h')">H</button>
+            <button onclick="clickedLetter ('i')">I</button>
+            <button onclick="clickedLetter ('j')">J</button>
+            <button onclick="clickedLetter ('k')">K</button>
+            <button onclick="clickedLetter ('l')">L</button>
+            <button onclick="clickedLetter ('m')">M</button>
+            <button onclick="clickedLetter ('n')">N</button>
+            <button onclick="clickedLetter ('o')">O</button>
+            <button onclick="clickedLetter ('p')">P</button>
+            <button onclick="clickedLetter ('q')">Q</button>
+            <button onclick="clickedLetter ('r')">R</button>
+            <button onclick="clickedLetter ('s')">S</button>
+            <button onclick="clickedLetter ('t')">T</button>
+            <button onclick="clickedLetter ('u')">U</button>
+            <button onclick="clickedLetter ('v')">V</button>
+            <button onclick="clickedLetter ('w')">W</button>
+            <button onclick="clickedLetter ('x')">X</button>
+            <button onclick="clickedLetter ('y')">Y</button>
+            <button onclick="clickedLetter ('z')">Z</button>
+        </div>
+
+        <br>
+        <br>
+
+        <h2>The Chosen Catergory is Animals</h2>
+
+        <h3>Word:</h3>
+        <h4 id="word"></h4>
+
+        <h3>Hint:</h3>
+        <h4 id="hint"> </h4>
+
+
+        <h4>Lives Left:</h4>
+        <p id="lives"></p>
+
+        <div class="Box">
+
+            <div class="HangBoxContent">
+                <img src="images2/hangman-6.svg" alt="Hangman">
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <button class="buttonSize" onclick="window.location.reload()">Play Again</button>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="Hangman.js"></script>
+</body>
+
+</html>
